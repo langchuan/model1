@@ -1,0 +1,16 @@
+﻿git 账号密码
+langchuan langchuan1992
+select table_name from user_tables 
+select * from v$instance
+create table table_name as select * from table_name;
+insert into table_name select * from table_name;
+commit;
+DDL：数据库模式定义语言，关键字：create
+DML：数据操纵语言，关键字：Insert、delete、update
+DCL：数据库控制语言 ，关键字：grant、revoke
+DQL：数据库查询语言，关键字：select
+sql语句最好是全部采用大写,因为这样可以提高sql查询的速度
+maven项目添加oracle 11g jar包的方法
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar -Dfile=本地路径/ojdbc6.jar
+
+
