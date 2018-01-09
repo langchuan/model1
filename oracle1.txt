@@ -14,5 +14,5 @@ maven项目添加oracle 11g jar包的方法
 mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar -Dfile=本地路径/ojdbc6.jar
 select * from dba_users
 select * from v$version
-
+只有一个分支的情况下怎么使用
 
